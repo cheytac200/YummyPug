@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    display: block;
+    /* max-width: 1170px; */
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 1170px;
+    margin: 30px auto 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.header div {
+    display: flex;
+    gap: 50px;
+}
+
+
+.mainContainerTitle {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.mainContainerTitle div {
+    max-width: 575px;
+}
+
+.mainContainerTitle div h1 {
+    color: #F37F34;
+    font-size: 110px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mainContainerTitle div h1 span {
+    color: #774E2E;
+}
+
+.mainContainerTitle div p {
+    margin: 40px 0 50px 0;
+    line-height: 150%;
+}
+
+.mainContainerTitle div button {
+    width: 344px;
+    height: 70px;
+    color: #fff;
+    background-color: #774E2E;
+    border: none;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.mainContainerTitle div button:hover {
+    color: #774E2E;
+    background-color: #fff;
+    border: 1px #774E2E solid;
+    transition: background-color 1s, color 1s;
+}
+
+.mainContainerTitle img {
+    max-width: 575px;
+    max-height: 596px;
+}
+
+.mainContainerSweets {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF9EA;
+}
+
+.mainContainerSweets>div {
+    width: 100%;
+    max-width: 1170px;
+    margin: 150px auto;
+}
+
+.mainContainerSweets div h2 {
+    margin-bottom: 70px;
+    font-size: 72px;
+    line-height: 110px;
+    font-weight: bold;
+    color: #F37F34;
+    text-transform: uppercase;
+}
+
+.mainContainerSweets div h2 span {
+    color: #774E2E;
+}
+
+.mainContainerSweets div div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContainerSweets div div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 370px;
+    background-color: #fff;
+}
+
+.mainContainerSweets div div div img {
+    width: 370px;
+    height: 248px;
+}
+
+.mainContainerSweets div div div h3 {
+    margin: 36px 0 16px 0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #673B19;
+}
+
+.mainContainerSweets div div div p {
+    padding: 15px 20px 36px 20px;
+    color: #774E2E;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+.mainContainerAdvice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: 150px auto;
+}
+
+.mainContainerAdvice img{
+    width: 575px;
+    height: 722px;
+}
+
+.mainContainerAdvice div h2{
+    font-size: 72px;
+    line-height: 110%;
+    font-weight: bold;
+    color: #F37F34;
+    text-transform: uppercase;
+}
+
+.mainContainerAdvice div h2 span{
+    color: #774E2E;
+}
+
+.mainContainerAdvice div p{
+    width: 575px;
+    margin: 30px 0 60px 0;
+    line-height: 150%;
+}
+
+.mainContainerAdvice div h3{
+    font-size: 24px;
+    line-height: 130%;
+    color: #673B19;
+}
+
+.mainContainerAdvice div ul{
+    margin-top: 20px
+}
+
+.mainContainerAdvice div ul li{
+    color: #774E2E;
+}
+
+.footer {
+    background-color: #774E2E;
+}
+
+.footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.footer div img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer div p {
+    color: #fff;
+    font-size: 36px;
+    line-height: 130px;
+}
